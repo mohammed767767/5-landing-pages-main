@@ -12,9 +12,16 @@ body {
     font-family: ar-font;
     direction: rtl;
 }
-
+.logo img{
+    border-radius: 50%;
+}
+.slogo{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-style:italic;
+}
 header {
-    background-image: url(../images/header.jpg);
+    background-image: url(../images/59f0be538280a61d008b4de0.webp);
     background-size: cover;
     background-position: center center;
 }
@@ -30,13 +37,13 @@ header .heading-page h1 {
     font-size: 60px;
     font-weight: bold;
     line-height: 75px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 header .heading-page p {
     font-size: 18px;
     line-height: 25px;
-    color: #acacac;
+    color: rgb(0, 0, 0);
     width: 40%;
     margin: auto;
 }
@@ -55,19 +62,19 @@ header .count-amount {
     font-size: 60px;
     display: block;
     font-weight: bold;
-    color: #ffce00;
+    color: rgb(0, 0, 0);
 }
 
 header .count-period {
     font-size: 30px;
     display: block;
     font-weight: bold;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 header .send-notification p {
     font-size: 18px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 header .input-group {
@@ -127,7 +134,7 @@ section.features .row .col-md-6:nth-child(even) {
 }
 
 footer {
-    background-image: url(../images/footer-bg.jpg);
+    background-image: url(../images/gents_barber_club_drib-01_4x.webp);
     background-size: cover;
     background-position: center;
     text-align: center;

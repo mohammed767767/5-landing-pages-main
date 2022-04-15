@@ -8,6 +8,10 @@
 body {
     font-family: 'Cairo', sans-serif;
 }
+.header-text h1{
+    font-weight: bold;
+    font-style: italic;
+}
 
 header.header {
     background-image: url(../images/bg.jpg);

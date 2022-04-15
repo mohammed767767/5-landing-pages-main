@@ -11,6 +11,14 @@
 body {
     font-family: ar-font, sans-serif;
 }
+.brand-logo {
+    font-weight: bold;
+    font-style: italic;
+    color: #131313;
+}
+a{
+    text-decoration: none;
+}
 
 header video {
     min-height: 100%;
@@ -116,6 +124,10 @@ section.features .media-feature .d-flex {
 
 section.features .media-feature .d-flex:nth-child(even) {
     direction: ltr;
+}
+.c-img img{
+    width: 50% !important;
+    height: 60% !important;
 }
 
 section.features .media-feature .d-flex img {

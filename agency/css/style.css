@@ -8,6 +8,14 @@
 body {
     font-family: 'Cairo', sans-serif;
 }
+.logo{
+    font-weight: bold;
+    font-style: italic;
+    color: #16aeca;
+}
+.navbar{
+    background-color: #6c6b6b;
+}
 
 nav.navbar {
     z-index: 15;
@@ -19,7 +27,7 @@ nav.navbar .navbar-brand img {
 
 nav.navbar .navbar-nav .nav-item a.nav-link {
     font-size: 16px;
-    color: #e8e8e8;
+    color: #16aeca;
     line-height: 40px;
     padding: 0 16px;
     transition: all 0.5s ease;
@@ -51,13 +59,13 @@ nav.navbar.noTransparrent button.navbar-toggler {
 }
 
 header {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/businees\ imge.jfif);
     background-size: cover;
     background-position: center;
 }
 
 header .overlay {
-    background: linear-gradient(to right, rgba(46, 178, 181, 0.8), rgba(197, 203, 50, 0.8));
+   
     min-height: 100vh;
 }
 
@@ -79,7 +87,7 @@ header .overlay .carousel .carousel-item .carousel-content h2 {
     font-size: 40px;
     line-height: 52px;
     margin-bottom: 60px;
-    color: #fff;
+    color: #000000;
 }
 
 header .overlay .carousel .carousel-item .carousel-content a {
